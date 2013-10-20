@@ -10,12 +10,6 @@ enyo.kind({
 	name: "enyo.Button",
 	//* @protected
 	kind: enyo.ToolDecorator,
-	tag: "button",
-	attributes: {
-		// set to button, as default is "submit" which can cause unexpected
-		// problems when controls are used inside a form
-		type: "button"
-	},
 	//* @public
 	published: {
 		//* When true, button is shown as disabled and does not generate tap
